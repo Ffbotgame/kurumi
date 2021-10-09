@@ -200,17 +200,17 @@ def start(update: Update, context: CallbackContext):
                              text="🚨 XFORCESUPPORT 🚨",
                              url=f""https://t.me/XForceSupport),
                          InlineKeyboardButton(
-                             text="My friends",
+                             text="Anime Land • Xforce",
                              url="https://t.me/LandOfAnimes7")
                     ], 
                      [
                          InlineKeyboardButton(
-                             text="🔔 Updates of thorfinn🔔",
-                             url="https://t.me/XForceSupport")
+                             text="XForceBots",
+                             url="https://t.me/XForceBots")
                     ], 
                      [
                          InlineKeyboardButton(
-                             text="United Groups Of Weebs ⛩",
+                             text="Uɴɪᴛᴇᴅ Gʀᴏᴜᴘ Oғ Wᴇᴇʙs ⛩ | #✗ғ",
                              url="https://t.me/WeebChatGroup")
                     ]]))
                      
