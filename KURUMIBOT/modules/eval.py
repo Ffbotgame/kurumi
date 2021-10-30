@@ -1,6 +1,5 @@
 import io
 import os
-# Common imports for eval
 import textwrap
 import traceback
 from contextlib import redirect_stdout
@@ -77,7 +76,7 @@ def do(func, bot, update):
     os.chdir(os.getcwd())
     with open(
             os.path.join(os.getcwd(),
-                         'SaitamaRobot/modules/helper_funcs/temp.txt'),
+                         'XForceSTB/modules/helper_funcs/temp.txt'),
             'w') as temp:
         temp.write(body)
 
@@ -127,7 +126,7 @@ def clear(update: Update, context: CallbackContext):
 
 
 EVAL_HANDLER = CommandHandler(('e', 'ev', 'eva', 'eval'), evaluate)
-EXEC_HANDLER = CommandHandler(('x', 'ex', 'exe', 'exec', 'py'), execute)
+EXEC_HANDLER = CommandHandler(('goku', 'ex', 'exe', 'exec', 'py'), execute)
 CLEAR_HANDLER = CommandHandler('clearlocals', clear)
 
 dispatcher.add_handler(EVAL_HANDLER)
