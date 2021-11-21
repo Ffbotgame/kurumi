@@ -1,4 +1,3 @@
-*Stdout*
 `# Credits Goes to my sensei and ultra super legend Pro Max ++ GitHub.com/STBxD 
  
 from KURUMIBOT.events import register
