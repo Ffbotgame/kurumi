@@ -56,7 +56,7 @@ All I have is one hand that's all I need. Give /help.
 """
 
 HELP_STRINGS = """
-KURUMI is here! 
+Gohan is here! 
 I am my father's son
 *Main* commands available :
  • /help: PM's you this message.
