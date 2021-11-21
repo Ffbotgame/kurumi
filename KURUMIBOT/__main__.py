@@ -52,12 +52,12 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 Hi {}, my name is {}! 
-I am an Anime themed group management bot. I will use my angel Zafkiel and protect your group. You can find my list of available commands with /help.
+All I have is one hand that's all I need. Give /help.
 """
 
 HELP_STRINGS = """
 KURUMI is here! 
-I Use My Powers To Help Admins To Manage Their Groups! 
+I am my father's son
 *Main* commands available :
  • /help: PM's you this message.
  • /help <module name>: PM's you info about that module.
@@ -69,11 +69,10 @@ For all command use / [or](https://telegra.ph/file/b1b545eb4877b012eac82.png) !
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\nKindly use ! for commands if / is not working\n")
 
-TOKISAKI_IMG = "https://telegra.ph/file/99bbcc3b8564804dc2ab0.jpg"
-KURUMI_IMG = "https://telegra.ph/file/e1d87ec2bdac4e3cfe0a4.mp4"
+TOKISAKI_IMG = "https://telegra.ph/file/4c904891a658d3748a557.jpg"
+KURUMI_IMG = "https://telegra.ph/file/fa765becd1d96893e8448.mp4"
 
-DONATE_STRING = """Heya, glad to hear you want to donate!
-Click here to donate in [Paypal](https://www.paypal.me/zameeljaz)"""
+DONATE_STRING = """currently I don't want donations thank you"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -191,27 +190,27 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="☑️ Add Kurumi Chan to your group",
+                            text="☑️ Add Mystic Gohan to your group",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username))
                     ],
                      [
                          InlineKeyboardButton(
-                             text="🚨 Support 🚨",
+                             text="🚨 Z Fighters 🚨",
                              url=f"https://t.me/{SUPPORT_CHAT}"),
                          InlineKeyboardButton(
-                             text="My luv ❤",
-                             url="https://t.me/A_lonelyPerson")
+                             text="My Master",
+                             url="https://t.me/DragonwarriorV")
                     ], 
                      [
                          InlineKeyboardButton(
-                             text="🔔 Updates of KURUMI 🔔",
-                             url="https://t.me/hiroiscool")
+                             text="⚡Updates of Gohan⚡",
+                             url="https://t.me/SonGohanSupportChat")
                     ], 
                      [
                          InlineKeyboardButton(
                              text="📳 Anime Chat Group 📳",
-                             url="https://t.me/WeebXWorld")
+                             url="https://t.me/SonGohanSupportChat")
                     ]]))
                      
                     
@@ -219,7 +218,7 @@ def start(update: Update, context: CallbackContext):
                     
     else:
         update.effective_message.reply_video(
-                KURUMI_IMG, caption=f"Zaphkiel!!!!\nI'm here with my Zaphkiel")
+                KURUMI_IMG, caption=f"Father!!!\nI am the son of my father")
 
 # for test purposes
 def error_callback(update: Update, context: CallbackContext):
