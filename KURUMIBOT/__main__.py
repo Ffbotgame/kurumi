@@ -197,7 +197,7 @@ def start(update: Update, context: CallbackContext):
                      [
                          InlineKeyboardButton(
                              text="🚨 Z Fighters 🚨",
-                             url=f"https://t.me/{SUPPORT_CHAT}"),
+                             url=f"https://t.me/SonGohanSupportChat"),
                          InlineKeyboardButton(
                              text="My Master",
                              url="https://t.me/DragonwarriorV")
